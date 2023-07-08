@@ -1,4 +1,9 @@
 /* common shared styles */
+
+.header{
+    background-color: #FFF8F3;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -9,7 +14,8 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;
+    margin: 0px 200px;   
 }
 .nav-title{
     color: #181818;
@@ -39,4 +45,14 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* banner related styles */
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profilepic{
+    width: 500px;
 }
